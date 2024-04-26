@@ -19,7 +19,7 @@ export default defineConfig(({ command }) => {
       build: {
         lib: {
           entry: path.resolve(__dirname, "src/index.ts"),
-          name: "@hudoro/storage",
+          name: "@hudoro/hooks",
           formats: ["es", "umd", "cjs"],
           fileName: (format) => `index.${format}.js`,
         },
