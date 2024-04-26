@@ -1,7 +1,7 @@
 {
   "name": "@hudoro/storage",
   "version": "0.0.1",
-  "description": "Secure Storage for HSD App",
+  "description": "Usefull react hooks for HSD App",
   "author": "Prawito Hudoro",
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
@@ -26,15 +26,13 @@
     "@types/react": "^18.2.79",
     "@types/react-dom": "^18.2.25",
     "path": "^0.12.7",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "typescript": "^5.4.5",
     "url": "^0.11.3",
     "vite": "^5.2.10",
-    "vite-plugin-dts": "^3.9.0"
+    "vite-plugin-dts": "^3.9.0",
+    "react-dom": "^18.2.0"
   },
   "dependencies": {
-    "crypto-js": "^4.2.0",
-    "murmurhash-js": "^1.0.0"
+    "react": "^18.2.0"
   }
 }
