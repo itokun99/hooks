@@ -7,7 +7,7 @@ export default defineConfig(({ command }) => {
   if (command === "serve") {
     // Dev config
     return {
-      plugins: [],
+      plugins: [react()],
       root: path.resolve(__dirname, "dev"),
       build: {
         outDir: path.resolve(__dirname, "dist"),
