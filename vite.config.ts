@@ -1,4 +1,5 @@
 import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 import dts from "vite-plugin-dts";
 import path from "path";
 
@@ -15,7 +16,7 @@ export default defineConfig(({ command }) => {
   } else {
     // Build config
     return {
-      plugins: [dts()],
+      plugins: [react(), dts()],
       build: {
         lib: {
           entry: path.resolve(__dirname, "src/index.ts"),

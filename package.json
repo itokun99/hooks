@@ -1,6 +1,6 @@
 {
   "name": "@hudoro/hooks",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Usefull react hooks for HSD App",
   "author": "Prawito Hudoro",
   "main": "dist/index.umd.js",
@@ -23,6 +23,7 @@
     "@types/node": "^20.12.7",
     "@types/react": "^18.2.79",
     "@types/react-dom": "^18.2.25",
+    "@vitejs/plugin-react": "^4.2.1",
     "path": "^0.12.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
