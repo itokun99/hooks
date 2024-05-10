@@ -1,6 +1,6 @@
 {
   "name": "@hudoro/hooks",
-  "version": "0.0.5",
+  "version": "0.0.6-beta.4",
   "description": "Usefull react hooks for HSD App",
   "author": "Prawito Hudoro",
   "main": "dist/index.umd.js",
@@ -30,9 +30,11 @@
     "typescript": "^5.4.5",
     "url": "^0.11.3",
     "vite": "^5.2.10",
-    "vite-plugin-dts": "^3.9.0"
+    "vite-plugin-dts": "^3.9.0",
+    "vite-plugin-external": "^4.3.1"
   },
-  "dependencies": {
-    "react": "^18.2.0"
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
