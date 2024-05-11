@@ -1,12 +1,12 @@
 {
-  "name": "@itokun99/hooks",
+  "name": "@hudoro/hooks",
   "version": "0.0.6-beta.15",
-  "description": "Backup - Usefull react hooks for HSD App",
-  "author": "byito.dev",
+  "description": "Usefull react hooks for HSD App",
+  "author": "Prawito Hudoro",
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
-  "private": false,
+  "private": true,
   "type": "module",
   "files": [
     "dist"
@@ -14,7 +14,13 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "react-hooks",
+    "react-custom-hooks",
+    "react-utils",
+    "usehooks"
+  ],
   "license": "ISC",
   "scripts": {
     "dev": "vite --config vite.config.ts --port 3000",
