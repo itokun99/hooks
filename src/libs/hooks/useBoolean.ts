@@ -1,4 +1,4 @@
-import { useCallback, useState } from "react";
+import React from "react";
 
 import type { Dispatch, SetStateAction } from "react";
 
@@ -14,17 +14,17 @@ export function useBoolean(defaultValue = false): UseBooleanReturn {
   if (typeof defaultValue !== "boolean") {
     throw new Error("defaultValue must be `true` or `false`");
   }
-  const [value, setValue] = useState(defaultValue);
+  const [value, setValue] = React.useState(defaultValue);
 
-  const setTrue = useCallback(() => {
+  const setTrue = React.useCallback(() => {
     setValue(true);
   }, []);
 
-  const setFalse = useCallback(() => {
+  const setFalse = React.useCallback(() => {
     setValue(false);
   }, []);
 
-  const toggle = useCallback(() => {
+  const toggle = React.useCallback(() => {
     setValue((x) => !x);
   }, []);
 
